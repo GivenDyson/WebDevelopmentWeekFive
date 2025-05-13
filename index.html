@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+    <title>Interative Webpage.</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">Welcome to my interactive webpage.</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="dynamicText">Click button to change style and text.</p>
+            <button onclick="changeTextAndStyle()">Change Style and Text</button>
+        </section>
+
+        <section>
+            <button onclick="toggleElement()">Add/Remove Message</button>
+            <div id="messageContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Webpage</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
